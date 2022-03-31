@@ -6,6 +6,7 @@ public class UserRest {
     private String userId;
     private String firstName;
     private String lastName;
+    private String email;
 
     public String getUserId() {
         return userId;
@@ -39,5 +40,4 @@ public class UserRest {
         this.email = email;
     }
 
-    private String email;
 }
